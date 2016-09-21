@@ -19,7 +19,7 @@ The easiest is to use our `docker-compose.yml`.
 Make sure you have [docker-compose](http://docs.docker.com/compose/install/) installed. And then:
 
 ```bash
-git clone https://github.com/indiehosters/piwik.git
+git clone https://github.com/neolution/piwik.git
 cd piwik
 MYSQL_ROOT_PASSWORD=mystrongpassword docker-compose up
 ```
