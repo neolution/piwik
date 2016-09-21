@@ -24,7 +24,7 @@ cd piwik
 MYSQL_ROOT_PASSWORD=mystrongpassword docker-compose up
 ```
 
-You can now access your instance on the port 5021. Please use nginx reverse proxy with SSL certificate (e.g. let's encrypt) to access this port..
+You can now access your instance on the port 5021. Please use nginx reverse proxy with SSL certificate (e.g. let's encrypt) to access this port.
 
 You can also modify manually the nginx configuration file and map the TLS port of the host to the container.
 
