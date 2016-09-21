@@ -42,7 +42,7 @@ And leave the rest as default.
 
 Then you can continue the installation with the super user.
 
-## Emails - IN PROGRESS
+## Emails - NOT YET ACTIVATED 
 
 The recommended way is to use the `ssmtp` shipped with the image.
 To use it, just run:
