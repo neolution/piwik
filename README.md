@@ -24,15 +24,7 @@ cd piwik
 MYSQL_ROOT_PASSWORD=mystrongpassword docker-compose up
 ```
 
-You can now access your instance on the port 80 of the IP of your machine (not recommended for production).
-
-## Access it from Internet
-
-We recommend the usage of TLS, so the easiest is to use a TLS capable reverse proxy.
-Here are 2 examples:
-
- - [haproxy](https://github.com/indiehosters/haproxy)
- - [nginx](https://github.com/indiehosters/nginx)
+You can now access your instance on the port 5021. Please use nginx reverse proxy with SSL certificate (e.g. let's encrypt) to access this port..
 
 You can also modify manually the nginx configuration file and map the TLS port of the host to the container.
 
@@ -50,7 +42,7 @@ And leave the rest as default.
 
 Then you can continue the installation with the super user.
 
-## Emails
+## Emails - IN PROGRESS
 
 The recommended way is to use the `ssmtp` shipped with the image.
 To use it, just run:
